@@ -8,6 +8,7 @@ body{
 }
 a{
     text-decoration: none;
+    
 }
 
 .container{
@@ -134,15 +135,15 @@ h1{
 
 
 .footer{
-background: ;
+background: #d9ad7c;
 display: flex;
 justify-content:center;
 padding: 10px;
-background: #E6CDAE;
+background: ##d9ad7c;
 
 }
 .pie{
-    background: #E6CDAE;
+    background: #d9ad7c;
     width: 300px;
     
     
@@ -155,6 +156,93 @@ background: #E6CDAE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+
+
+.contenido1{
+   background-color: #D28140;
+   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+div .cont{
+    background: white;
+    color: #D28140;
+    padding: 20px;
+    margin: 40px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+}
+.recuadro{
+    color: #343434;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.cont i{
+   font-size: 100px;
+   color: #343434;
+  
+}
+
+.contenido2{
+    background: #e0e2e4;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+div .muestra{
+    background: white;
+    color: #D28140;
+    padding: 20px;
+    margin: 40px;
+    height: 380px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+    border-radius: 50px;
+
+}
+.oferta{
+    background: white;
+    margin: 20px;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px black;
+
+    }
+
+div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.agregar{
+    margin: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    background: #343434;
+    color: white;
+}
+
 
 @media all and (max-width: 800px){
     .seccion{
@@ -172,6 +260,46 @@ background: #E6CDAE;
     }
     .nav a:hover{
         color: #343434
+        
+
+        }
+
+        .contenido1{
+            background-color: #D28140;
+            display: flex;
+           flex-wrap: wrap;
+           flex-direction: row;
+           justify-content: center;
+           
+         }
+         
+         div .cont{
+             background: white;
+             color: #D28140;
+             padding: 20px;
+             margin: 10px;
+             height: 150px;
+             width: 150px;
+             text-align: center;
+             justify-content: center;
+             align-items: center;
+             border-radius: 150px;
+         }
+         .recuadro{
+             color: #343434;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             padding: 10px;
+             font-size: 15px;
+         }
+         .cont i{
+            font-size: 30px;
+            color: #343434;
+            
+            
+            
+         }
+
+
     
 }
 @media all and (max-width: 600px){
